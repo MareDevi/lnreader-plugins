@@ -384,7 +384,7 @@ class Linovelib implements Plugin.PluginBase {
 
         // Recover the original character
         pageText = pageCheerio('#acontentz').html() || '';
-        pageText = pageText.replace(/./g, char => skillgg[char] || char);
+        // pageText = pageText.replace(/./g, char => skillgg[char] || char);
 
         return Promise.resolve();
       };
